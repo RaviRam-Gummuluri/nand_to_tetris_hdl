@@ -1,0 +1,9 @@
+Project 01: Boolean Logic
+No additional software or dependencies required for this project.
+
+Project 02: Boolean Arithmetic
+No additional software or dependencies required for this project.
+
+General Dependencies
+HDL simulator: nand2tetris Hardware Simulator (tools/HardwareSimulator.sh)
+HDL files: nand2tetris HDL files (https://www.nand2tetris.org/software)

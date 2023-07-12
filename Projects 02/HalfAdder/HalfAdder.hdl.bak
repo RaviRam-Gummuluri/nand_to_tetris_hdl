@@ -1,0 +1,14 @@
+CHIP HalfAdder {
+    IN a, b;    // 1-bit inputs
+    OUT sum,    // Right bit of a + b 
+        carry;  // Left bit of a + b
+
+    PARTS:
+      
+       Nor(a=a,b=a,out=s1);
+       Nor(a=b,b=b,out=s2);
+       Nor(a=s1,b=s2,out=carry,out=q);
+	   
+	   Nor(a=a,b=b,out=p);
+       Nor(a=q,b=p,out=sum);
+}
