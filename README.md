@@ -25,7 +25,9 @@ To run and test the projects, follow these steps:
 The repository is structured as follows:
 
 Projects 01/ - Contains the HDL files and documentation for Project 01: Boolean Logic.
+
 Projects 02/ - Contains the HDL files and documentation for Project 02: Boolean Arithmetic.
+
 Feel free to explore each project directory to understand the implementation and refer to the project documentation for more details.
 
 ### Contributing
